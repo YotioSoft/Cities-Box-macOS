@@ -3,7 +3,7 @@ Set_Play_BGM = 1;
 Ignore_Update = 0;
 Get_Dev_Version = 1;
 
-OS = "Windows";
+OS = "macOS";
 
 Adjustment_Interval = 2;
 Drow_Interval = 8;
