@@ -1,14 +1,14 @@
-addon_name = "Normal_Waterway"
-addon_jp_name = "•’Ê‚Ì…˜H"
-addon_summary = "•’Ê‚Ì…˜H‚Å‚·B"
-addon_icon = "icon_Normal_Waterway.png"
+addon_name = "Bearch_and_Walkway"
+addon_jp_name = "‚¨‚µ‚á‚ê‚È…˜H"
+addon_summary = "‚±‚Ì…˜H‚ğ•~İ‚·‚é‚ÆAì‰ˆ‚¢‚É‚Í•à“¹‚ªAŠC‰ˆ‚¢‚É‚Íƒr[ƒ`‚ªì‚ç‚ê‚Ü‚·B"
+addon_icon = "icon_Bearch_and_Walkway.png"
 
 addon_type = "Waterway"
 
 use_types = "turn, intersection_T, intersection_cross, estuary, intersection_cross_without_one_corner, river_default, river_dead_end, river_turn, river_intersection_T, river_intersection_cross, isolated, under_construction"
 
 turn {
-	image = "Normal_Waterway_turn.png"
+	image = "Bearch_and_Walkway_turn.png"
 	direction = "left-top, right-top, left-bottom, right-bottom"
 	transparent_color = "0, 0, 0"
 	
@@ -59,7 +59,7 @@ turn {
 };
 
 intersection_T {
-	image = "Normal_Waterway_intersection_T.png"
+	image = "Bearch_and_Walkway_intersection_T.png"
 	direction = "left-top-bottom, left-right-top, left-right-bottom, right-top-bottom"
 	transparent_color = "0, 0, 0"
 	
@@ -110,7 +110,7 @@ intersection_T {
 };
 
 intersection_cross {
-	image = "Normal_Waterway_intersection_cross.png"
+	image = "Bearch_and_Walkway_intersection_cross.png"
 	direction = "null"
 	transparent_color = "0, 0, 0"
 	
@@ -128,7 +128,7 @@ intersection_cross {
 };
 
 estuary {
-	image = "Normal_Waterway_estuary.png"
+	image = "Bearch_and_Walkway_estuary.png"
 	direction = "left-top-bottom, left-right-top, left-right-bottom, right-top-bottom"
 	transparent_color = "0, 0, 0"
 	
@@ -179,7 +179,7 @@ estuary {
 };
 
 intersection_cross_without_one_corner {
-	image = "Normal_Waterway_intersection_cross_without_one_corner.png"
+	image = "Bearch_and_Walkway_intersection_cross_without_one_corner.png"
 	direction = "left-top, right-top, left-bottom, right-bottom"
 	transparent_color = "0, 0, 0"
 	
@@ -230,7 +230,8 @@ intersection_cross_without_one_corner {
 };
 
 river_default {
-	image = "Normal_Waterway_River.png"
+	image = "Bearch_and_Walkway_River.png"
+	night_mask = "Bearch_and_Walkway_River__night_mask.png"
 	direction = "width, depth"
 	transparent_color = "0, 0, 0"
 	
@@ -259,7 +260,8 @@ river_default {
 };
 
 river_dead_end {
-	image = "Normal_Waterway_River_dead_end.png"
+	image = "Bearch_and_Walkway_River_dead_end.png"
+	night_mask = "Bearch_and_Walkway_River_dead_end__night_mask.png"
 	direction = "left, top, bottom, right"
 	transparent_color = "0, 0, 0"
 	
@@ -310,7 +312,8 @@ river_dead_end {
 };
 
 river_turn {
-	image = "Normal_Waterway_River_turn.png"
+	image = "Bearch_and_Walkway_River_turn.png"
+	night_mask = "Bearch_and_Walkway_River_turn__night_mask.png"
 	direction = "left-top, right-top, left-bottom, right-bottom"
 	transparent_color = "0, 0, 0"
 	
@@ -361,7 +364,8 @@ river_turn {
 };
 
 river_intersection_T {
-	image = "Normal_Waterway_River_intersection_T.png"
+	image = "Bearch_and_Walkway_River_intersection_T.png"
+	night_mask = "Bearch_and_Walkway_River_intersection_T__night_mask.png"
 	direction = "left-top-bottom, left-right-top, left-right-bottom, right-top-bottom"
 	transparent_color = "0, 0, 0"
 	
@@ -412,7 +416,7 @@ river_intersection_T {
 };
 
 river_intersection_cross {
-	image = "Normal_Waterway_River_intersection_cross.png"
+	image = "Bearch_and_Walkway_River_intersection_cross.png"
 	direction = "null"
 	transparent_color = "0, 0, 0"
 	
@@ -430,7 +434,7 @@ river_intersection_cross {
 };
 
 isolated {
-	image = "Normal_Waterway_isolated.png"
+	image = "Bearch_and_Walkway_isolated.png"
 	direction = "null"
 	transparent_color = "0, 0, 0"
 	
@@ -448,7 +452,7 @@ isolated {
 };
 
 under_construction {
-	image = "Normal_Waterway_uc.png"
+	image = "Bearch_and_Walkway_uc.png"
 	direction = "null"
 	transparent_color = "0, 0, 0"
 	
